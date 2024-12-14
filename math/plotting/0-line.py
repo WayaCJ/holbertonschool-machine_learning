@@ -8,13 +8,13 @@ def line():
     Plots the graph of y = x^3 for x in the range from 0 to 10.
     The plot will be a solid red line with the x-axis labeled from 0 to 10.
     """
-    # Generate the x values from 0 to 10
-    x = np.arange(0, 11)
+    # Generate the x values from 0 to 10 using np.linspace for smoothness
+    x = np.linspace(0, 10, 100)  # 100 points between 0 and 10
 
     # Compute y as the cubic of x
     y = x ** 3
 
-    # Create the plot with specific size
+    # Create the plot with a specific figure size
     plt.figure(figsize=(6.4, 4.8))
 
     # Plot the cubic function y = x^3 with a solid red line
