@@ -12,7 +12,7 @@ def line():
     x = np.linspace(0, 10, 100)  # 100 points between 0 and 10
 
     # Compute y as the cubic of x
-    y = x ** 3
+    y = np.arange(0, 11) ** 3
 
     # Create the plot with a specific figure size
     plt.figure(figsize=(6.4, 4.8))
