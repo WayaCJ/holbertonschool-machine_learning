@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """Module that calculates"""
+
+
 def matrix_shape(matrix):
     if isinstance(matrix, list) and matrix:
         if isinstance(matrix[0], list):
