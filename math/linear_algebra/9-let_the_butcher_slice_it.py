@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import numpy as np
-matrix = np.array([[1,2,3,4,5,6], [7,8,9,10,11,12], [13,14,15,16,17,18], [19,20,21,22,23,24]])
+matrix = np.array([[1, 2, 3, 4, 5, 6], [7, 8, 9, 10, 11, 12], [13, 14, 15, 16, 17, 18], [19, 20, 21, 22, 23, 24]])
 mat1 = matrix[1:3]  # Middle two rows (2nd and 3rd)
 mat2 = matrix[:, 2:4]  # Middle two columns (3rd and 4th)
 mat3 = matrix[-3:, -3:]  # Bottom-right 3x3 matrix
