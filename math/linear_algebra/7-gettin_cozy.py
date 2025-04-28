@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Module that concatenates two matrices"""
 
+
 def cat_matrices2D(mat1, mat2, axis=0):
     """Concatenates two matrices along a specific axis"""
     if axis == 0:
